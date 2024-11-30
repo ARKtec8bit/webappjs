@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karate Workout Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Karate Workout Generator</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#workouts">Workouts</a></li>
+        </ul>
+    </nav>
+    <main id="home">
+        <h2>Welcome!</h2>
+        <p>Get a random karate workout tailored to your needs.</p>
+    </main>
+    <section id="workouts">
+        <h2>Workouts</h2>
+        <button onclick="generateWorkout()">Get Random Workout</button>
+        <div id="workout-result"></div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
