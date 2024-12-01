@@ -47,3 +47,44 @@ button {
 button:hover {
     background-color: #555;
 }
+.btn-block{
+    display:flexbox;
+    justify-content: center;
+    margin-top: 0;}
+.workout_box {
+    display:flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+.workout_box h3{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.workout_box h4{
+    margin-top: 0;
+}
+
+.strength_box{
+    background-color: lightgray;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: .5em;
+    margin: 0 .5em;
+    width: 350px;
+}
+.conditioning_box{
+    background-color: lightblue;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: .5em;
+    margin: 0 .5em;
+    width: 350px;
+}
+.technical_box{
+    background-color: lightgreen;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: .5em;
+    margin: 0 .5em;
+    width: 350px;
+}
